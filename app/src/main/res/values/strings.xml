@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">btvn6</string>
+    <string name="user">Users</string>
+    <string name="pass">Password</string>
+    <string name="hihi">Quên mật khẩu à, vậy thì ko đăng nhập được nhé.ahihi!
+        user: ngoc</string>
+    <string name="str1">Remind me at:</string>
+    <string name="str2">Type:</string>
+    <string name="str3">Tags:</string>
+    <string name="str4">Weeks:</string>
+</resources>

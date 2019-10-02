@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nendt"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/athur1"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:layout_margin="20dp"
+            android:background="@drawable/khung"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/user"
+            android:hint="@string/user"
+            android:textSize="25dp"/>
+        <EditText
+            android:layout_margin="20dp"
+            android:background="@drawable/khung"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/pass"
+            android:hint="@string/pass"
+            android:textSize="25dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="Đăng Nhập"
+            android:textColor="#FFF"
+            android:id="@+id/login"
+            android:textSize="20dp"
+            android:background="@drawable/nen"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quên mật khẩu"
+            android:textColor="#FFF"
+            android:id="@+id/quen" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
